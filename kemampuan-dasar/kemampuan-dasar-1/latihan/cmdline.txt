@@ -1,0 +1,35 @@
+add
+add volume <volume> [provider <providerid>]
+add alias <aliasname> <aliasvalue>
+add alias <aliasname> <aliasvalue>
+add volume <volume> [provider <providerid>]
+append [[<drive>:]<path>[;...]] [/x[:on|:off]] [/path:[:on|:off] [/e]
+append ;
+arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d <inetaddr> [<ifaceaddr>]] [/s <inetaddr> <etheraddr> [<ifaceaddr>]]
+assign [{letter=<d> | mount=<path>}] [noerr]
+assoc [<.[ext]>[=[<filetype>]]]
+at [\computername] [[id] [/delete] | /delete [/yes]]
+at [\computername] <time> [/interactive] [/every:date[,...] | /next:date[,...]] <command>
+atmadm [/c][/a][/s]
+attach vdisk [readonly] { [sd=<SDDL>] | [usefilesd] } [noerr]
+attrib [{+|-}r] [{+|-}a] [{+|-}s] [{+|-}h] [{+|-}i] [<drive>:][<path>][<filename>] [/s [/d] [/l]]
+attributes disk
+attributes volume
+auditpol command [<sub-command><options>]
+bcdboot <source> [/l] [/s]
+bcdedit /command [<argument1>] [<argument2>] ...
+bdehdcfg [–driveinfo <drive_letter>] [-target {default|unallocated|<drive_letter> shrink|<drive_letter> merge}] [–newdriveletter] [–size <size_in_mb>] [-quiet]
+begin backup
+begin restore
+bitsadmin /addfile <job> <remoteURL> <localname>
+cacls <filename> [/t] [/m] [/l] [/s[:sddl]] [/e] [/c] [/g user:<perm>] [/r user [...]] [/p user:<perm> [...]] [/d user [...]]
+call [drive:][path]<filename> [<batchparameters>] [:<label> [<arguments>]]
+cd [/d] [<drive>:][<path>]
+cd [..]
+chdir [/d] [<drive>:][<path>]
+chdir [..]
+date [/t | <month-day-year>]
+date [/t | <month-day-year>]
+fc /a [/c] [/l] [/lb<n>] [/n] [/off[line]] [/t] [/u] [/w] [/<nnnn>] [<drive1>:][<path1>]<filename1> [<drive2>:][<path2>]<filename2>
+fc /b [<drive1:>][<path1>]<filename1> [<drive2:>][<path2>]<filename2>
+
